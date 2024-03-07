@@ -1,0 +1,15 @@
+-# The price of the Food
+coffeePrice = 5.00
+muffinPrice = 4.00
+
+foodType = input(which one do you want to order (1.coffee 2.muffin))
+foodNumber = int(input("How many: "))
+
+if drinkType == "1":
+totalPrice = foodNumber * coffeePrice
+elif drinkType == "2":
+totalPrice = foodNumber * muffinPrice
+else:
+print("The selected drink does not exist")
+#Total
+print("Total：" + str(totalPrice) * 0.06 + "Dollar")
